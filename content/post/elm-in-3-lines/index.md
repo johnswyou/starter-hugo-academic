@@ -152,7 +152,7 @@ class NaiveELM(BaseEstimator, RegressorMixin):
         return y_hat
 ```
 
-Let's test run our custom `NaiveELM` estimator using 100 hidden nodes, and evaluate model performance for each fold:
+Let's test run our custom `NaiveELM` estimator using 10 hidden nodes, and evaluate model performance for each fold:
 
 
 ```python
