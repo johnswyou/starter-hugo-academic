@@ -17,15 +17,15 @@ Given a training set {{< math >}}$D=\left\{\left(\mathbf{x}_i, y_i\right) \mid \
 - **Step 2**: Calculate the hidden layer output matrix {{< math >}}$\mathbf{H}${{< /math >}}.
 - **Step 3**: Calculate the output weight {{< math >}}$\beta=\mathbf{H}^{\dagger} \mathbf{y}${{< /math >}}, where {{< math >}}$\mathbf{y}=\left[y_1, \ldots, y_N\right]^{\mathrm{T}}${{< /math >}} and {{< math >}}$\dagger${{< /math >}} indicates the Moore-Penrose Pseudo-inverse.
 
-Notice that each row in the hidden layer output matrix
+The hidden layer output matrix looks as follows:
 
 {{< math >}}
 $$
-\mathbf{H}=\left[\begin{array}{ccc}g\left(\mathbf{w}_1 \cdot \mathbf{x}_1+b_1\right) & \cdots & g\left(\mathbf{w}_{L} \cdot \mathbf{x}_1+b_{L}\right) \\ \vdots & \cdots & \vdots \\ g\left(\mathbf{w}_1 \cdot \mathbf{x}_N+b_1\right) & \cdots & g\left(\mathbf{w}_{L} \cdot \mathbf{x}_N+b_{L}\right)\end{array}\right]_{N \times L}
+\mathbf{H}=\left[\begin{array}{ccc}g\left(\mathbf{w}_1 \cdot \mathbf{x}_1+b_1\right) & \cdots & g\left(\mathbf{w}_{L} \cdot \mathbf{x}_1+b_{L}\right) \\ \vdots & \cdots & \vdots \\ g\left(\mathbf{w}_1 \cdot \mathbf{x}_N+b_1\right) & \cdots & g\left(\mathbf{w}_{L} \cdot \mathbf{x}_N+b_{L}\right)\end{array}\right]_{N \times L}.
 $$
 {{< /math >}}
 
-corresponds to the hidden layer output for sample {{< math >}}$\mathbf{x}_i${{< /math >}}.
+Notice that each row in {{< math >}}$\mathbf{H}${{< /math >}} corresponds to the hidden layer output for sample {{< math >}}$\mathbf{x}_i${{< /math >}}.
 
 If we collect the hidden layer weights into a matrix {{< math >}}$\mathbf{W}=\left[\mathbf{w}_1, \cdots, \mathbf{w}_L\right]_{p \times L}${{< /math >}}, hidden layer biases into a vector {{< math >}}$\mathbf{b} = [b_1, \cdots, b_L]^\mathrm{T}${{< /math >}}, and input features {{< math >}}$\{\mathbf{x}_i\}${{< /math >}} into an {{< math >}}$N \times p${{< /math >}} matrix {{< math >}}$\mathbf{X} = [\mathbf{x}_1, \cdots, \mathbf{x}_N]^\mathrm{T}${{< /math >}}, we can compute {{< math >}}$\mathbf{H}${{< /math >}} in one go by
 
