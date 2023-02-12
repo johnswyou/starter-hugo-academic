@@ -269,7 +269,7 @@ $$
 $$
 {{< /math >}}
 
-we can adopt a Bayesian linear regression approach to ELM, known as Bayesian Extreme Learning Machine (BELM), which allows us to obtain probability densities for predictions. For further details, see (Soria-Olivas, 2011).
+we can adopt a Bayesian linear regression approach to ELM, known as Bayesian Extreme Learning Machine (BELM), which allows us to obtain probability densities for predictions. For further details, see [Soria-Olivas, 2011](https://www.researchgate.net/publication/49776685_BELM_Bayesian_extreme_learning_machine).
 
 # Final thoughts
 
