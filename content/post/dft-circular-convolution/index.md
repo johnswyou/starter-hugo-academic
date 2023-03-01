@@ -3,7 +3,7 @@ title: Circular Convolution Using Discrete Fourier Transform
 date: 2023-03-01
 ---
 
-In this article, I show the mechanics of the discrete Fourier transform (DFT) and circular convolution (within the context of time series analysis). The goal of this post is to present these two methods in a practical yet non-superficial way. We will only deal with real, finite length time series $\left\{a_t\right\}$. The primary reference for this article is "Wavelet Methods for Time Series Analysis" by Percival and Walden.
+In this article, I show the mechanics of the discrete Fourier transform (DFT) and circular convolution (within the context of time series analysis). The goal of this post is to present these two methods in a practical yet non-superficial way. We will only deal with real, finite length time series {{< math >}}$\left\{a_t\right\}${{< /math >}}. The primary reference for this article is "Wavelet Methods for Time Series Analysis" by Percival and Walden.
 
 # Discrete Fourier Transform (DFT)
 
