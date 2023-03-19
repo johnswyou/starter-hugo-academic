@@ -1,16 +1,16 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "py_wddff"
+title: "pywddff"
 summary: "Wavelet data driven forecasting framework (WDDFF) implementation in Python 3."
 authors:
   - John You
 tags: Wavelets
 categories: []
-date: 2023-01-30T18:39:40-05:00
+date: 2023-03-19T19:53:40-05:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://github.com/johnswyou/py_wddff"
+external_link: "https://github.com/johnswyou/pywddff"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
