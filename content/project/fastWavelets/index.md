@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: FastWavelets
-summary: Compute Maximal Overlap Discrete Wavelet Transform (DWT) and A Trous DWT.
+summary: Compute Maximal Overlap Discrete Wavelet Transform (DWT) and A Trous DWT in R.
 tags:
   - Wavelets
 authors:
